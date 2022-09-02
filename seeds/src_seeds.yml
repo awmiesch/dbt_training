@@ -1,0 +1,15 @@
+version: 2
+
+seeds:
+- name: order_status
+  description: Order status reference table
+  config:
+    column_types:
+        order_status_code: string
+        order_status_desc: string
+  columns:
+  - name: order_status_code
+    tests:
+    - not_null
+    - unique
+  - name: order_status_desc

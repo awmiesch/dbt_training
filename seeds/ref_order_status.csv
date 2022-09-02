@@ -1,0 +1,6 @@
+status_code,status_desc
+completed,Completed
+placed,Placed
+return_pending,Return pending
+returned,Returned
+shipped,Shipped
